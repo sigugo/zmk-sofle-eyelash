@@ -38,9 +38,19 @@
     combos {
         compatible = "zmk,combos";
 
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <35 36 37>;
+        Backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <24 23>;
+        };
+
+        Quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <36 37>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
         };
     };
 
