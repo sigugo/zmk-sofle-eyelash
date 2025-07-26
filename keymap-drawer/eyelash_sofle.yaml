@@ -261,5 +261,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [35, 36, 37]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [24, 23]
+  k: {t: \, s: '|'}
+- p: [36, 37]
+  k: {t: '''', s: '"'}
+- p: [14, 15]
+  k: $$mdi:keyboard-tab$$
