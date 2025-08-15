@@ -25,7 +25,7 @@ layers:
   - U
   - I
   - O
-  - {t: /, s: '?'}
+  - P
   - {t: \, s: '|'}
   - $$mdi:alpha-w-box$$
   - A
@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - P
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: ;, s: ':'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
