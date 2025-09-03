@@ -84,6 +84,10 @@
 &trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &kp HOME  &kp PG_DN       &kp PG_UP  &kp END     &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans    &mkp MCLK        &trans    &trans          &trans     &trans      &trans
             >;
+
+            display-name = "raise";
+            sensor-bindings = <&scroll_encoder>;
+
         };
 
         adjust {
@@ -95,8 +99,8 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp MB4         &trans  &trans  &trans      &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
             label = "adjust";
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 
