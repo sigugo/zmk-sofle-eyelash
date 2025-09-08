@@ -1,4 +1,3 @@
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
@@ -80,7 +79,7 @@
             bindings = <
 &kp F13  &kp F14 &kp F15 &trans  &trans  &trans    &mmv MOVE_UP     &trans    &trans          &trans     &trans      &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans    &kp K_PREVIOUS  &trans     &kp K_NEXT  &trans  &kp BACKSPACE
-&trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp LEFT  &kp DOWN        &kp UP     &kp RIGHT   &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp LEFT  &kp DOWN        &kp UP     &kp RIGHT   &kp DEL &trans
 &trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &kp HOME  &kp PG_DN       &kp PG_UP  &kp END     &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans    &mkp MCLK        &trans    &trans          &trans     &trans      &trans
             >;
